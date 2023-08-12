@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Food.fs" />
+    <Compile Include="IGraphNode.fs" />
+    <Compile Include="MinorNode.fs" />
+    <Compile Include="MajorNode.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="Player.fs" />
+    <Compile Include="Ghost.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GodotSharp">
+      <HintPath>..\.mono\assemblies\Debug\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="GodotSharpEditor">
+      <HintPath>..\.mono\assemblies\Debug\GodotSharpEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

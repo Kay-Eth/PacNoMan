@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacNoMan", "PacNoMan.csproj", "{222F9426-A624-4615-AB1E-FD0456596709}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PacNoManFSharp", "PacNoManFSharp\PacNoManFSharp.fsproj", "{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222F9426-A624-4615-AB1E-FD0456596709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222F9426-A624-4615-AB1E-FD0456596709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222F9426-A624-4615-AB1E-FD0456596709}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{222F9426-A624-4615-AB1E-FD0456596709}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{222F9426-A624-4615-AB1E-FD0456596709}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{222F9426-A624-4615-AB1E-FD0456596709}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6DFF1F-D52C-4537-AC4F-B825EAA33F21}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90FFF1F8-C13D-48A2-B1E2-B123DFB07196}
+	EndGlobalSection
+EndGlobal

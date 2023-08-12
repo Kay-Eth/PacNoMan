@@ -1,0 +1,7 @@
+https://gameinternals.com/understanding-pac-man-ghost-behavior
+
+240 food
+4 energizers
+
+tile = 8x8 px
+map = 28 x 36 tiles | 224 x 288 px

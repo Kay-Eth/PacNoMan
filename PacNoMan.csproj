@@ -1,0 +1,35 @@
+﻿<Project Sdk="Godot.NET.Sdk/3.2.3">
+  <PropertyGroup>
+    <ProjectGuid>{222F9426-A624-4615-AB1E-FD0456596709}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PacNoMan</RootNamespace>
+    <AssemblyName>PacNoMan</AssemblyName>
+    <TargetFrameworkProfile />
+    <TargetFramework>net48</TargetFramework>
+    <!--The following properties were overriden during migration to prevent errors.
+    Enabling them may require other manual changes to the project and its files.-->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\GAME.cs" />
+    <Compile Include="Scripts\Ghosts\Ghost.cs" />
+    <Compile Include="Scripts\Nodes\MajorGraphNode.cs" />
+    <Compile Include="Scripts\Nodes\MinorGraphNode.cs" />
+    <Compile Include="Scripts\Nodes\Teleport.cs" />
+    <Compile Include="Scripts\Player\Energizer.cs" />
+    <Compile Include="Scripts\Player\Food.cs" />
+    <Compile Include="Scripts\Player\Player.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PacNoManFSharp\PacNoManFSharp.fsproj">
+      <Project>{3e6dff1f-d52c-4537-ac4f-b825eaa33f21}</Project>
+      <Name>PacNoManFSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
